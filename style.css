@@ -185,13 +185,13 @@ body {
 }
 
 .profile-avatar {
-    font-size: 4rem;
-    margin-bottom: 1rem;
-    color: #fbbf24;
+    width: 120px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0; /* 불필요한 패딩 제거 */
+    padding: 0;
+    background: #fff;
 }
 
 .profile-info h3 {
