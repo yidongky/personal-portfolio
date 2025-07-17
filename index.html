@@ -215,7 +215,7 @@
                                 - Classic ASP/Java, IIS 서버 기반, RESTful API, QueryDSL, JWT 인증, JUnit TDD, jQuery/JavaScript 프론트엔드</li>
                             <li><b>MSDS 솔루션 지원</b><br>
                                 - Spring 기반 유지보수, Angular.js 프론트엔드</li>
-                            <li><b>화학사고예방관리 앱 개발</b><br>
+                            <li><b><a href="#" onclick="goToChemApp(event)">화학사고예방관리 앱 개발</a></b><br>
                                 - Flutter, 위치기반, 시험/캡처방지/비상연락, Play/App Store 배포</li>
                             <li><b>형상 관리 및 CI/CD</b><br>
                                 - GitLab, Jenkins, GitLab CI</li>
@@ -370,5 +370,16 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+function goToChemApp(e) {
+  e.preventDefault();
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+  if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+    window.open('https://apps.apple.com/app/id6670458736', '_blank');
+  } else {
+    window.open('https://play.google.com/store/apps/details?id=kr.co.to21.chemihsam', '_blank');
+  }
+}
+</script>
 </body>
 </html> 
