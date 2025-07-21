@@ -185,9 +185,20 @@ body {
 }
 
 .profile-avatar {
-    font-size: 4rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     margin-bottom: 1rem;
-    color: #fbbf24;
+}
+
+.profile-image-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
+  display: block;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 .profile-info h3 {
