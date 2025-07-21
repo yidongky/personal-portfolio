@@ -178,8 +178,9 @@ body {
 .profile-card {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
-    border-radius: 20px;
-    padding: 2rem;
+    border-radius: 14px;
+    padding: 1.2rem;
+    max-width: 260px;
     text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
