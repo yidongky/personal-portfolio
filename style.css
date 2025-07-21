@@ -198,8 +198,7 @@ body {
   object-fit: cover;
   object-position: center 20%;
   display: block;
-  margin: 0 auto;
-  transform: translateX(16px);
+  margin: 0 auto 0 24px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
